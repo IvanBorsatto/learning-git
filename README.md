@@ -61,3 +61,39 @@ git branch
 ```
 
 Lista todas as ramificações do seu repositório.
+
+```bash
+ git branch --list.
+```
+
+Sinônimo de git branch
+
+```bash
+git branch <nome-da-branch>
+```
+
+Criar uma nova ramificação.
+
+```bash
+git branch -d <-nome-da-branch>
+```
+
+Exclui uma ramificação especificada. Esta é uma operação “segura” em que o Git impede que você exclua a ramificação se tiver mudanças não mescladas.
+
+```bash
+git branch -D <branch>
+```
+
+Força a exclusão da ramificação especificada, mesmo que ela tenha mudanças não mescladas. Este é o comando a ser usado se você quiser excluir de modo permanente todas as confirmações associadas a uma linha particular de desenvolvimento.
+
+```bash
+git branch -m <branch>
+```
+
+Renomear a ramificação atual para .
+
+```bash
+git branch -a
+```
+
+Listar todas as ramificações remotas.
