@@ -1,5 +1,18 @@
 # learning-git
 
+## Creating repository
+
+```bash
+echo "# teste" >> README.md
+git init
+git status
+git add .
+git commit -m "primeiro commit"
+git branch -M master
+git remote add origin https://github.com/<seu-repositorio.git>
+git push -u origin main
+```
+
 _1º- Passo - Crio uma pasta dentro da minha máquina, onde irei alocar meu “projeto” (no terminal)._
 
 ```bash
