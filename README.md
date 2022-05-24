@@ -18,37 +18,37 @@ _3º- Passo - Inicialização do git no projeto._
 git init
 ```
 
-4º- Passo - Verificar a situação atual do projeto em relação ao git.
+_4º- Passo - Verificar a situação atual do projeto em relação ao git._
 
 ```bash
 git status
 ```
 
-5º- Passo - Adicionar o arquivo no git.
+_5º- Passo - Adicionar o arquivo no git._
 
 ```bash
 git add .
 ```
 
-6º- Passo - Especifica a minha alteração no código
+_6º- Passo - Especifica a minha alteração no código_
 
 ```bash
 git commit -m "primeiro commit"
 ```
 
-7º- Passo - Cria e especifica a branch(raiz/ramo) principal do projeto no git.
+_7º- Passo - Cria e especifica a branch(raiz/ramo) principal do projeto no git._
 
 ```bash
 git branch -M master
 ```
 
-8º- Passo - Adicionar um link de origem ao meu repositório.
+_8º- Passo - Adicionar um link de origem ao meu repositório._
 
 ```bash
 git remote add origin https://github.com/<seu-repositorio.git>
 ```
 
-9º- Passo - Enviar/Empurrar meus commits para o repositório.
+_9º- Passo - Enviar/Empurrar meus commits para o repositório._
 
 ```bash
 git push -u origin master
