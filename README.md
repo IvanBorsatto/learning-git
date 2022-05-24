@@ -110,3 +110,43 @@ git branch -a
 ```
 
 Listar todas as ramificações remotas.
+
+## Updating the repository
+
+```bash
+git init
+git status
+git add .
+git commit -m "novos arquivos inseridos"
+git push -u origin main
+```
+
+_1º- Passo - Inicialização do git no projeto._
+
+```bash
+git init
+```
+
+_2º- Passo - Verificar a situação atual do projeto em relação ao git._
+
+```bash
+git status
+```
+
+_3º- Passo - Adicionar o arquivo no git._
+
+```bash
+git add .
+```
+
+_4º- Passo - Especifica a minha alteração no código._
+
+```bash
+git commit -m "primeiro commit"
+```
+
+_5º- Passo - Enviar/Empurrar meus commits para o repositório._
+
+```bash
+git push -u origin master
+```
