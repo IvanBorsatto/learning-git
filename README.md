@@ -53,3 +53,11 @@ git remote add origin https://github.com/<seu-repositorio.git>
 ```bash
 git push -u origin master
 ```
+
+## Variações do git branch
+
+```bash
+git branch
+```
+
+Lista todas as ramificações do seu repositório.
